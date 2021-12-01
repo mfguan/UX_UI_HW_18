@@ -100,7 +100,6 @@ ul {
 }
 
 
-
 /* Footer section CSS */
 
 footer {
@@ -127,3 +126,28 @@ footer {
 .contact {
     padding: 10px;
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+    
+    .flexContainer {
+        flex-direction: column;
+    }
+    
+    .flexContainer > div {
+        width: 100%;
+    }
+
+    .workGrid {
+        display: grid;
+        grid:
+        'f-pic' 
+        'f-text'
+        'h-pic' 
+        'h-text';
+        grid-gap: 10px;
+    }
+
+}
+

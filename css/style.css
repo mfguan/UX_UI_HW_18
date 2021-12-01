@@ -15,6 +15,15 @@ h1 {
     font-family: "Lato", Times, serif
 }
 
+h3 {
+    font-family: "lato", Times, serif
+}
+
+p {
+    font-family: "Lato", Times, serif;
+    color: #373737;
+}
+
 nav {
     width: 73%;
     margin-top: 30px;
@@ -26,6 +35,8 @@ ul {
     width: 50%;
     margin-left: auto;
 }
+
+/* Hero image section CSS */
 
 .heroImg {
     height: 120px;
@@ -47,17 +58,53 @@ ul {
 }
 
 
-.skills {
-    height: 150px;
+/* My Skills section CSS */
+
+.mySkills {
+    width: 800px;
+    margin: 50px auto;
 }
 
-.work {
-    height: 150px;
+.flexContainer {
+    display: flex;
 }
 
+.flexContainer > div {
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* My Work section CSS */
+
+.myWork {
+    width: 800px;
+    margin: 50px auto 100px;
+}
+
+.item1 { grid-area: f-pic; }
+.item2 { grid-area: f-text; }
+.item3 { grid-area: h-pic; }
+.item4 { grid-area: h-text; }
+
+.workGrid {
+    display: grid;
+    grid:
+    'f-pic f-text'
+    'h-pic h-text';
+    grid-gap: 20px;
+}
+
+.workGrid > div {
+    padding: 10px;
+}
+
+
+
+/* Footer section CSS */
 
 footer {
-    height: 100px;
+    height: 80px;
     padding: 10px 50px;
     background-color: #f9f9f9;
 }
@@ -68,11 +115,9 @@ footer {
     margin: auto;
 }
 
-
 .footer-inline-block {
     display: inline-block;
 }
-
 
 .copyright {
     width: 600px;

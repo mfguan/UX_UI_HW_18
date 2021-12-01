@@ -1,0 +1,84 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: "Lato", Times, serif
+}
+
+nav {
+    width: 73%;
+    margin-top: 30px;
+    align-items: right;
+    font-family: "Lato", Times, serif
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    height: 120px;
+    width: 800px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+}
+
+.welcome {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Lato", Times, serif
+}
+
+.self-intro {
+    padding-left: 30px;
+    text-align: justify;
+}
+
+
+.skills {
+    height: 150px;
+}
+
+.work {
+    height: 150px;
+}
+
+
+footer {
+    height: 100px;
+    padding: 10px 50px;
+    background-color: #f9f9f9;
+}
+
+.footer {
+    width: 800px;
+    padding: 10px 0px;
+    margin: auto;
+}
+
+
+.footer-inline-block {
+    display: inline-block;
+}
+
+
+.copyright {
+    width: 600px;
+    font-family: "Lato", Times, serif
+}
+
+.contact {
+    padding: 10px;
+}
